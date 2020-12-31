@@ -1,3 +1,4 @@
 def reverse_each_word(sentence)
-  sentence.split.collect {|words|words.reverse}.collect
+  sentence.each do sentence.reverse
+end
 end
